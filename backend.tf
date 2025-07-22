@@ -3,9 +3,8 @@ terraform {
     backend "remote"{
         organization = "prasanth-org"
         
-        workspaces{
+         workspaces{
             name = "gcp_with_terraform_practice"
         }
-
     }
 }
