@@ -4,7 +4,7 @@ terraform {
         organization = "prasanth-org"
         
          workspaces{
-            name = "gcp_with_terraform_practice"
+            name = "gcp_with_terraform"
         }
     }
 }
